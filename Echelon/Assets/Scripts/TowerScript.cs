@@ -25,7 +25,7 @@ public class TowerScript : MonoBehaviour {
 		//Transform target2 = null;
 
 
-		float minimalEnemyDistance = float.MaxValue;
+		//float minimalEnemyDistance = float.MaxValue;
 		foreach (GameObject enemy in enemiesSort) {
 			target = enemy;
 			//Calculate distance to objective, attack one closest
